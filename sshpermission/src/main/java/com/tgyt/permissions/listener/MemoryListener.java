@@ -56,9 +56,11 @@ public class MemoryListener implements ServletContextListener {
 	public void contextInitialized(ServletContextEvent arg0) {
 		ApplicationContext ctx = WebApplicationContextUtils.getWebApplicationContext(arg0.getServletContext());
 		
+		int a = ctx.getBeanDefinitionCount();
+		String[] s = ctx.getBeanDefinitionNames();
 		
-		this.setDictionaryDao((DictionaryDao)ctx.getBean("dictionaryDao"));
 		this.setArgumentsDAO((ArgumentsDAO)ctx.getBean("argumentsDAO"));
+		this.setDictionaryDao((DictionaryDao)ctx.getBean("dictionaryDao"));
 		
 		System.out.println("tomcat 开始启动");
 		//系统字典读进内存
