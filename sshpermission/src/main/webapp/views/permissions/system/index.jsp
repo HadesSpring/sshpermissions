@@ -12,22 +12,24 @@
 	<div id="mainlayout" class="easyui-layout" fit="true">
 		<div region="north" border="false">
 			<div class="toolbar">
+				<a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newItem()">新增系统</a>
+				<a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="editItem()">修改系统</a>
+				<a href="#" class="easyui-linkbutton" iconCls="icon-delete" plain="true" onclick="delItem()">删除系统</a>
+				<a href="javascript:advanceQuery()" class="easyui-linkbutton"plain="true">查询系统</a>
+				<!-- 				
 				<table cellpadding="0" cellspacing="0" style="width:95%;" fit="true">
 					<tr>
 						<td style="text-align:left">
 				<tgEasyui:easyuiButton iconCls="icon-add" method="newItem()" permission="system:add" operationName="新增"/>
 				<tgEasyui:easyuiButton iconCls="icon-edit" method="editItem()" permission="system:modify" operationName="修改"/>
 				<tgEasyui:easyuiButton iconCls="icon-cancel" method="delItem()" permission="system:delete" operationName="删除"/>
-				<!-- 				<a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newItem()">新增系统</a> -->
-<!-- 				<a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="editItem()">修改系统</a> -->
-<!-- 				<a href="#" class="easyui-linkbutton" iconCls="icon-delete" plain="true" onclick="delItem()">删除系统</a> -->
-<!-- 				<a href="javascript:advanceQuery()" class="easyui-linkbutton"plain="true">查询系统</a> -->
 						</td>
 					<td style="text-align:right">
 						<tgEasyui:easyuiButton iconCls="icon-search" method="advanceQuery()" permission="system:query" operationName="高级查询"/>
 					</td>
 					</tr>
 				</table>
+				 -->
 			</div>
 		</div>
 		

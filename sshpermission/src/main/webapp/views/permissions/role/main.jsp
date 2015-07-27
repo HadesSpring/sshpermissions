@@ -540,25 +540,27 @@
 					<table cellpadding="0" cellspacing="0" style="width:95%;">
 						<tr>
 							<td style="text-align:left">
+								<a href="javascript:newItem()" class="easyui-linkbutton" iconCls="icon-add" plain="true">新增</a> 
+								<a href="javascript:editItem()" class="easyui-linkbutton" iconCls="icon-edit" plain="true">修改</a> 
+								<a href="javascript:removeItem()" class="easyui-linkbutton" iconCls="icon-cancel" plain="true">删除</a> 
+								<a href="javascript:back()" class="easyui-linkbutton" iconCls="icon-reload" plain="true">刷新</a> 
+								<a href="javascript:authorizate()" class="easyui-linkbutton" iconCls="icon-search" plain="true">分配资源</a> 
+								<a href="javascript:resAct()" class="easyui-linkbutton" iconCls="icon-search" plain="true">分配操作</a>
+								<a href="javascript:resActions()" class="easyui-linkbutton" iconCls="icon-search" plain="true">分配操作</a>
+								<!-- 	
 								<tgEasyui:easyuiButton iconCls="icon-add" method="newItem()" permission="role:add" operationName="新增"/>
 								<tgEasyui:easyuiButton iconCls="icon-edit" method="editItem()" permission="role:modify" operationName="修改"/>
 								<tgEasyui:easyuiButton iconCls="icon-cancel" method="removeItem()" permission="role:delete" operationName="删除"/>
 								<tgEasyui:easyuiButton iconCls="icon-reload" method="back()" permission="role:refresh" operationName="刷新"/>
 								<tgEasyui:easyuiButton iconCls="icon-search" method="authorizate()" permission="role:assignResource" operationName="分配资源"/>
 								<tgEasyui:easyuiButton iconCls="icon-search" method="resAct()" permission="role:assignAction" operationName="分配操作"/>
- 							<!-- 	<a href="javascript:newItem()" class="easyui-linkbutton" iconCls="icon-add" plain="true">新增</a> 
- 								<a href="javascript:editItem()" class="easyui-linkbutton" iconCls="icon-edit" plain="true">修改</a> 
- 								<a href="javascript:removeItem()" class="easyui-linkbutton" iconCls="icon-cancel" plain="true">删除</a> 
- 								<a href="javascript:back()" class="easyui-linkbutton" iconCls="icon-reload" plain="true">刷新</a> 
- 								<a href="javascript:authorizate()" class="easyui-linkbutton" iconCls="icon-search" plain="true">分配资源</a> 
- 								<a href="javascript:resAct()" class="easyui-linkbutton" iconCls="icon-search" plain="true">分配操作</a>   -->
-
-
-<!-- 								<a href="javascript:resActions()" class="easyui-linkbutton" iconCls="icon-search" plain="true">分配操作</a> -->
+								 -->
 							</td>
 							<td style="text-align:right">
-							<tgEasyui:easyuiButton iconCls="icon-search" method="advanceQuery()" permission="role:advanceQuery" operationName="高级查询"/>
-<!-- 								<a href="javascript:advanceQuery()" class="easyui-linkbutton" plain="true">高级查询</a> -->
+								<!-- 
+								<tgEasyui:easyuiButton iconCls="icon-search" method="advanceQuery()" permission="role:advanceQuery" operationName="高级查询"/>
+								 -->
+								<a href="javascript:advanceQuery()" class="easyui-linkbutton" plain="true">高级查询</a>
 							</td>
 						</tr>
 					</table>

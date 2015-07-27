@@ -303,20 +303,24 @@
 					<table cellpadding="0" cellspacing="0" style="width:95%;" fit="true">
 						<tr>
 							<td style="text-align:left"> 
+								<!-- 
 								<tgEasyui:easyuiButton iconCls="icon-add" method="newItem()" permission="resource:add" operationName="新增"/>
 								<tgEasyui:easyuiButton iconCls="icon-edit" method="editItem()" permission="resource:modify" operationName="修改"/>
 								<tgEasyui:easyuiButton iconCls="icon-cancel" method="removeItem()" permission="resource:delete" operationName="删除"/>
 								<tgEasyui:easyuiButton iconCls="icon-reload" method="back()" permission="resource:refresh" operationName="刷新"/>
 								<tgEasyui:easyuiButton iconCls="icon-add" method="addaction()" permission="resource:addOperation" operationName="添加操作"/>
-<!-- 								<a href="javascript:newItem()" class="easyui-linkbutton" iconCls="icon-add" plain="true">新增</a> -->
-<!-- 								<a href="javascript:editItem()" class="easyui-linkbutton" iconCls="icon-edit" plain="true">修改</a> -->
-<!-- 								<a href="javascript:removeItem()" class="easyui-linkbutton" iconCls="icon-cancel" plain="true">删除</a> -->
-<!-- 								<a href="javascript:back()" class="easyui-linkbutton" iconCls="icon-reload" plain="true">刷新</a> -->
-<!-- 								<a href="javascript:addaction()" class="easyui-linkbutton" iconCls="icon-reload" plain="true">添加操作</a> -->
+								 -->
+								<a href="javascript:newItem()" class="easyui-linkbutton" iconCls="icon-add" plain="true">新增</a>
+								<a href="javascript:editItem()" class="easyui-linkbutton" iconCls="icon-edit" plain="true">修改</a>
+								<a href="javascript:removeItem()" class="easyui-linkbutton" iconCls="icon-cancel" plain="true">删除</a>
+								<a href="javascript:back()" class="easyui-linkbutton" iconCls="icon-reload" plain="true">刷新</a>
+								<a href="javascript:addaction()" class="easyui-linkbutton" iconCls="icon-reload" plain="true">添加操作</a>
 							</td>
 							<td style="text-align:right">
-							<tgEasyui:easyuiButton iconCls="icon-search" method="advanceQuery()" permission="resource:advanceQuery" operationName="高级查询"/>
-<!-- 								<a href="javascript:advanceQuery()" class="easyui-linkbutton" plain="true">高级查询</a> -->
+								<!-- 
+								<tgEasyui:easyuiButton iconCls="icon-search" method="advanceQuery()" permission="resource:advanceQuery" operationName="高级查询"/>
+								 -->
+								<a href="javascript:advanceQuery()" class="easyui-linkbutton" plain="true">高级查询</a>
 							</td>
 						</tr>
 					</table>

@@ -231,14 +231,17 @@
 	<div class="easyui-layout" fit="true">
 		<div region="north" border="false">
 			<div class="toolbar">
+				<!-- 
 				<tgEasyui:easyuiButton iconCls="icon-add" method="newItem()" permission="flowtype:add" operationName="新增"/>
 				<tgEasyui:easyuiButton iconCls="icon-edit" method="editItem()" permission="flowtype:modify" operationName="修改"/>
 				<tgEasyui:easyuiButton iconCls="icon-cancel" method="removeItem()" permission="flowtype:delete" operationName="删除"/>
 				<tgEasyui:easyuiButton iconCls="icon-add" method="createFlow()" permission="flowtype:addFlow" operationName="新增流程"/>
-<!-- 				<a href="#" class="easyui-linkbutton" plain="true" iconCls="icon-add" onclick="newItem()">新增</a> -->
-<!-- 				<a href="#" class="easyui-linkbutton" plain="true" iconCls="icon-edit" onclick="editItem()">修改</a> -->
-<!-- 				<a href="#" class="easyui-linkbutton" plain="true" iconCls="icon-remove" onclick="removeItem()">删除</a> -->
-<!-- 				<a href="#" class="easyui-linkbutton" plain="true" iconCls="icon-add" onclick="createFlow()">新增流程</a> -->
+				 -->
+				
+				<a href="#" class="easyui-linkbutton" plain="true" iconCls="icon-add" onclick="newItem()">新增</a>
+				<a href="#" class="easyui-linkbutton" plain="true" iconCls="icon-edit" onclick="editItem()">修改</a>
+				<a href="#" class="easyui-linkbutton" plain="true" iconCls="icon-remove" onclick="removeItem()">删除</a>
+				<a href="#" class="easyui-linkbutton" plain="true" iconCls="icon-add" onclick="createFlow()">新增流程</a>
 			</div>
 		</div>
 		<div region="west" border="false" style="border-right:1px solid #92B7D0;width:150px;padding:5px;">

@@ -16,6 +16,7 @@
 				<table cellpadding="0" cellspacing="0" style="width:95%;" fit="true">
 					<tr>
 						<td style="text-align: left;">
+ 							<!-- 
 							<tgEasyui:easyuiButton iconCls="icon-add" method="newItem()" permission="group:add" operationName="新增"/>
 							<tgEasyui:easyuiButton iconCls="icon-edit" method="editItem()" permission="group:modify" operationName="修改"/>
 							<tgEasyui:easyuiButton iconCls="icon-cancel" method="delItem()" permission="group:delete" operationName="删除"/>
@@ -25,8 +26,9 @@
 							<tgEasyui:easyuiButton iconCls="icon-add" method="groupToRole()" permission="group:groupAuthRole" operationName="组授权角色"/>
 							<tgEasyui:easyuiButton iconCls="icon-search" method="lookGroupHaveRole()" permission="group:detailGroupRole" operationName="查看组拥有的角色"/>
 							<tgEasyui:easyuiButton iconCls="icon-cancel" method="removeGroupHaveRole()" permission="group:removeGroupRole" operationName="移除组拥有的角色"/>
+							 -->
 				
- 							<!-- <a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newItem()">新增组</a> 
+ 							<a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newItem()">新增组</a> 
  							<a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="editItem()">修改组</a> 
  							<a href="#" class="easyui-linkbutton" iconCls="icon-cancel" plain="true" onclick="delItem()">删除组</a> 
  							<a href="#" class="easyui-linkbutton" iconCls="icon-search" plain="true" onclick="lookItem()">查看组信息</a> 
@@ -35,7 +37,6 @@
  							<a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="groupToRole()">组授权角色</a> 
  							<a href="#" class="easyui-linkbutton" iconCls="icon-search" plain="true" onclick="lookGroupHaveRole()">查看组拥有的角色</a> 
  							<a href="#" class="easyui-linkbutton" iconCls="icon-cancel" plain="true" onclick="removeGroupHaveRole()">移除组拥有的角色</a> 
- -->
 						</td>
 					</tr>
 				</table>

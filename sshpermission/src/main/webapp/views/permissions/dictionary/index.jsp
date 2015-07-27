@@ -14,21 +14,25 @@
 		<div region="north" border="false">
 			<div class="toolbar">
 				<table cellpadding="0" cellspacing="0" style="width:95%;">
-						<tr>
-							<td style="text-align: left;">
-				<tgEasyui:easyuiButton iconCls="icon-add" method="newItem()" permission="dictionary:add" operationName="新增"/>
-				<tgEasyui:easyuiButton iconCls="icon-edit" method="editItem()" permission="dictionary:modify" operationName="修改"/>
-				<tgEasyui:easyuiButton iconCls="icon-cancel" method="delItem()" permission="dictionary:delete" operationName="删除"/>
-<!-- 				<a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newItem()">新增常量</a> -->
-<!-- 				<a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="editItem()">修改常量</a> -->
-<!-- 				<a href="#" class="easyui-linkbutton" iconCls="icon-delete" plain="true" onclick="delItem()">删除常量</a> -->
-<!-- 				<a href="javascript:advanceQuery()" class="easyui-linkbutton"plain="true">查询常量</a> -->
-							</td>
-							<td style="text-align: right;"> 
-				<tgEasyui:easyuiButton iconCls="icon-search" method="advanceQuery()" permission="dictionary:query" operationName="高级查询"/>
-							</td>
-						</tr>
-					</table>
+					<tr>
+						<td style="text-align: left;">
+							<!-- 
+							<tgEasyui:easyuiButton iconCls="icon-add" method="newItem()" permission="dictionary:add" operationName="新增"/>
+							<tgEasyui:easyuiButton iconCls="icon-edit" method="editItem()" permission="dictionary:modify" operationName="修改"/>
+							<tgEasyui:easyuiButton iconCls="icon-cancel" method="delItem()" permission="dictionary:delete" operationName="删除"/>
+							 -->
+							
+							<a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newItem()">新增常量</a>
+							<a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="editItem()">修改常量</a>
+							<a href="#" class="easyui-linkbutton" iconCls="icon-delete" plain="true" onclick="delItem()">删除常量</a>
+							<a href="javascript:advanceQuery()" class="easyui-linkbutton"plain="true">查询常量</a>
+							
+						</td>
+						<td style="text-align: right;"> 
+							<tgEasyui:easyuiButton iconCls="icon-search" method="advanceQuery()" permission="dictionary:query" operationName="高级查询"/>
+						</td>
+					</tr>
+				</table>
 			</div>
 		</div>
 		

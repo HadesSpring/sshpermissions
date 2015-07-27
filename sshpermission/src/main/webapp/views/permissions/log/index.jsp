@@ -14,13 +14,16 @@
 				<table style="width:100%">
 					<tr>
 						<td style="text-align: left">
+							<a href="javascript:lookLog()" class="easyui-linkbutton" plain="true">查看日志</a>
+							<!-- 
 							<tgEasyui:easyuiButton iconCls="icon-search" method="lookLog()" permission="log:detail" operationName="查看"/>
+							 -->
 						</td>
 						<td style="text-align:right">
+							<!-- 
 							<tgEasyui:easyuiButton iconCls="icon-search" method="advanceQuery()" permission="log:advanceQuery" operationName="高级查询"/>
-				
-<!-- 							<a href="javascript:lookLog()" class="easyui-linkbutton" plain="true">查看日志</a> -->
-<!-- 							<a href="javascript:advanceQuery()" class="easyui-linkbutton" plain="true">高级查询</a> -->
+							 -->
+							<a href="javascript:advanceQuery()" class="easyui-linkbutton" plain="true">高级查询</a>
 						</td>
 					</tr>
 				</table>
